@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-10T15:07:47 GMT+03:00" name="Suite" finished-at="2025-02-10T15:08:09 GMT+03:00" duration-ms="22283">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.LoginErrorValidation()[pri:0, instance:ameera.Tests.ErrorValidationsTest@1c39680d]" name="LoginErrorValidation" class="ameera.Tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:ameera.Tests.SubmitOrderTest@264f218]" name="submitOrder" class="ameera.Tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-10T15:07:47 GMT+03:00" name="Error Validation Test" finished-at="2025-02-10T15:08:01 GMT+03:00" duration-ms="14517">
+      <class name="ameera.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ameera.Tests.ErrorValidationsTest@1c39680d]" started-at="2025-02-10T15:07:47 GMT+03:00" name="launchApplication" finished-at="2025-02-10T15:07:56 GMT+03:00" duration-ms="9217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:ameera.Tests.ErrorValidationsTest@1c39680d]" started-at="2025-02-10T15:07:56 GMT+03:00" name="LoginErrorValidation" finished-at="2025-02-10T15:07:56 GMT+03:00" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ameera.Tests.ErrorValidationsTest@1c39680d]" started-at="2025-02-10T15:07:56 GMT+03:00" name="tearDown" finished-at="2025-02-10T15:07:56 GMT+03:00" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ameera.Tests.ErrorValidationsTest@1c39680d]" started-at="2025-02-10T15:07:56 GMT+03:00" name="launchApplication" finished-at="2025-02-10T15:07:59 GMT+03:00" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:ameera.Tests.ErrorValidationsTest@1c39680d]" started-at="2025-02-10T15:07:59 GMT+03:00" name="ProductErrorValidation" finished-at="2025-02-10T15:08:01 GMT+03:00" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ameera.Tests.ErrorValidationsTest@1c39680d]" started-at="2025-02-10T15:08:01 GMT+03:00" name="tearDown" finished-at="2025-02-10T15:08:01 GMT+03:00" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ameera.Tests.ErrorValidationsTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-02-10T15:07:47 GMT+03:00" name="Submit Order Test" finished-at="2025-02-10T15:08:09 GMT+03:00" duration-ms="22283">
+      <class name="ameera.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ameera.Tests.SubmitOrderTest@264f218]" started-at="2025-02-10T15:07:47 GMT+03:00" name="launchApplication" finished-at="2025-02-10T15:08:02 GMT+03:00" duration-ms="15676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ameera.Tests.SubmitOrderTest@264f218]" started-at="2025-02-10T15:08:02 GMT+03:00" name="submitOrder" data-provider="getData" finished-at="2025-02-10T15:08:05 GMT+03:00" duration-ms="2641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Amera1919@, email=ameera@gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ameera.Tests.SubmitOrderTest@264f218]" started-at="2025-02-10T15:08:05 GMT+03:00" name="tearDown" finished-at="2025-02-10T15:08:05 GMT+03:00" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ameera.Tests.SubmitOrderTest@264f218]" started-at="2025-02-10T15:08:05 GMT+03:00" name="launchApplication" finished-at="2025-02-10T15:08:08 GMT+03:00" duration-ms="2978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:ameera.Tests.SubmitOrderTest@264f218]" started-at="2025-02-10T15:08:08 GMT+03:00" name="submitOrder" data-provider="getData" finished-at="2025-02-10T15:08:09 GMT+03:00" duration-ms="514" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Amera1919@, email=arar@gmail.com, productName=Banarsi Saree}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.findElement(org.openqa.selenium.By)" because "prod" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.findElement(org.openqa.selenium.By)" because "prod" is null
+at ameera.pageopject.ProductCatalouge.addProductToCart(ProductCatalouge.java:46)
+at ameera.Tests.SubmitOrderTest.submitOrder(SubmitOrderTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ameera.Tests.SubmitOrderTest@264f218]" started-at="2025-02-10T15:08:09 GMT+03:00" name="tearDown" finished-at="2025-02-10T15:08:09 GMT+03:00" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:ameera.Tests.SubmitOrderTest@264f218]" started-at="2025-02-10T15:08:09 GMT+03:00" name="OrderHistoryTest" finished-at="2025-02-10T15:08:09 GMT+03:00" depends-on-methods="ameera.Tests.SubmitOrderTest.submitOrder" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ameera.Tests.SubmitOrderTest.OrderHistoryTest() on instance ameera.Tests.SubmitOrderTest@264f218 depends on not successfully finished methods 
+[ameera.Tests.SubmitOrderTest.submitOrder() on instance ameera.Tests.SubmitOrderTest@264f218]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ameera.Tests.SubmitOrderTest.OrderHistoryTest() on instance ameera.Tests.SubmitOrderTest@264f218 depends on not successfully finished methods 
+[ameera.Tests.SubmitOrderTest.submitOrder() on instance ameera.Tests.SubmitOrderTest@264f218]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+      </class> <!-- ameera.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
